@@ -1,0 +1,60 @@
+
+.BackgroundDiv {
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+  background-color: #282c34;
+}
+
+.LoginDiv {
+  width: 20vmax;
+  height:20vmax;
+  /*background-color: white;*/
+  border-radius: 1vmax;
+  display: flex;
+  flex-direction: column;
+}
+
+.LoginDiv-headerDiv{
+  display: flex;
+  flex-direction: row;
+  background-color: #1890ff;
+  flex:auto;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 1vmax;
+  border-top-right-radius: 1vmax;
+}
+
+.LoginDiv-bodyDiv{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  flex:9 1 auto;
+  /*justify-content: flex-start;*/
+  /*align-items: center;*/
+  border-bottom-left-radius: 1vmax;
+  border-bottom-right-radius: 1vmax;
+  padding:15% 10%;
+}
+
+.LoginDiv-headerDiv p{
+  color:white;
+  font-size: 1.5rem;
+  margin:0;
+}
+
+.LoginDiv-body-componentDiv{
+  display: flex;
+  flex-direction: row;
+  flex:auto;
+  justify-content: flex-start;
+  align-items: center;
+  /*width:100%;*/
+}
+
+
+

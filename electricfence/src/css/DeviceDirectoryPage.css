@@ -1,0 +1,47 @@
+.table-operations {
+  margin-bottom: 16px;
+}
+
+.table-operations > button {
+  margin-right: 8px;
+}
+
+.modal-mainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /*flex:auto;*/
+}
+
+.modal-formRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex:auto;
+  margin:5px;
+  width:100%;
+}
+
+.modal-textColumn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex:auto;
+  width:30%;
+}
+
+.modal-inputColumn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex:auto;
+  width:70%;
+}
+
+.modal-textColumn p{
+  margin:0;
+}

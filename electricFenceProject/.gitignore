@@ -1,0 +1,6 @@
+#pyc
+*.pyc
+
+#directory
+__pycache__/
+migrations/
